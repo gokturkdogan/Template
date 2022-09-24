@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: $navbar;
+
+    &__logoArea {
+        width: 20%;
+    }
+    &__logo {
+        width: 100%;
+    }
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    &__item {
+        font-size: 2rem;
+    }
+    &__link {
+        text-decoration: none;
+        transition: 0.3s;
+        color: $navbarLink;
+        &:hover {
+            color: $navbarHover;
+        }
+    }
+}
