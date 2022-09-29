@@ -2,9 +2,11 @@
   display: flex;
   justify-content: flex-start;
   background-color: #35363C;
+  padding: 0;
+  margin: 0;
 }
 .navbar__logoArea {
-  width: 20%;
+  width: 15%;
 }
 .navbar__logo {
   width: 100%;
@@ -16,15 +18,21 @@
   width: 50%;
 }
 .navbar__item {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  padding: 40px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.navbar__item:hover {
+  background-color: green;
+}
+.navbar__item:hover a {
+  color: #FCEF57;
 }
 .navbar__link {
   text-decoration: none;
   transition: 0.3s;
   color: #FFFFFF;
-}
-.navbar__link:hover {
-  color: #FCEF57;
 }
 
 body {
