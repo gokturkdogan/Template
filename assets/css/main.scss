@@ -1,6 +1,9 @@
 @import 'variables/colors';
 @import 'layout/navbar';
+@import 'layout/topbar';
+@import 'components/icons';
 
 body{
     background-color: $main;
+    font-family: 'Kanit', sans-serif;
 }

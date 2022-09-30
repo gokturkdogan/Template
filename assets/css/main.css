@@ -2,7 +2,9 @@
   display: flex;
   justify-content: flex-start;
   background-color: #35363C;
-  padding: 0;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 45px;
   margin: 0;
 }
 .navbar__logoArea {
@@ -15,26 +17,92 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 75%;
 }
 .navbar__item {
   font-size: 1.2rem;
-  padding: 40px 10px;
   transition: 0.3s;
-  cursor: pointer;
-}
-.navbar__item:hover {
-  background-color: green;
-}
-.navbar__item:hover a {
-  color: #FCEF57;
 }
 .navbar__link {
   text-decoration: none;
   transition: 0.3s;
   color: #FFFFFF;
 }
+.navbar__link:hover {
+  color: #FCEF57;
+}
+.navbar__dropDownContent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  width: 16%;
+}
+.navbar__dropLink {
+  border: 1px solid #D4D5DB;
+  padding: 5px 80px 5px 5px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.navbar__dropLink i {
+  color: #237250;
+  display: none;
+  transition: 0.3s;
+}
+.navbar__dropLink:hover {
+  color: #237250;
+}
+.navbar__dropLink:hover i {
+  display: contents;
+}
+
+.topbar {
+  background-color: #2C2D31;
+  padding: 25px;
+}
+.topbar .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.topbar__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 7%;
+}
+.topbar__icons i {
+  font-size: 26px;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.topbar__icons i:hover {
+  color: #FCEF57;
+}
+.topbar__login {
+  display: flex;
+  justify-content: space-between;
+  width: 14%;
+}
+.topbar__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.topbar__link:hover {
+  color: #FCEF57;
+}
+.topbar__link:hover i {
+  color: #FFFFFF;
+}
+.topbar__link i {
+  color: #FCEF57;
+  font-size: 26px;
+}
 
 body {
   background-color: #EDEFF4;
+  font-family: "Kanit", sans-serif;
 }/*# sourceMappingURL=main.css.map */

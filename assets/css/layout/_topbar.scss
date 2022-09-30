@@ -1,0 +1,42 @@
+.topbar {
+    background-color: $topbar;
+    padding: 25px;
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 7%;
+        i {
+            font-size: 26px;
+            color: $navbarLink;
+            transition: 0.3s;
+            &:hover {
+                color: $navbarHover
+            }
+        }
+    }
+    &__login {
+        display: flex;
+        justify-content: space-between;
+        width: 14%;
+    }
+    &__link {
+        color: $navbarLink;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+            color: $navbarHover;
+        }
+        &:hover i {
+            color: $navbarLink;
+        }
+        i {
+            color: $navbarHover;
+            font-size: 26px;
+        }
+    }
+}

@@ -2,7 +2,9 @@
     display: flex;
     justify-content: flex-start;
     background-color: $navbar;
-    padding: 0;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 45px;
     margin: 0;
 
     &__logoArea {
@@ -15,23 +17,48 @@
         list-style-type: none;
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        width: 75%;
     }
     &__item {
         font-size: 1.2rem;
-        padding: 40px 10px;
         transition: 0.3s;
-        cursor: pointer;
-        &:hover {
-            background-color: green;
-        }
-        &:hover a {
-            color: $navbarHover;
-        }
     }
     &__link {
         text-decoration: none;
         transition: 0.3s;
         color: $navbarLink;
+        &:hover {
+            color: $navbarHover;
+        }
+    }
+    &__dropDown {
+        
+    }
+    &__dropDownContent {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: $navbarLink;
+        margin-top: 30px;
+        width: 16%;
+    }
+    &__dropLink {
+        border: 1px solid $borders;
+        padding: 5px 80px 5px 5px;
+        text-decoration: none;
+        color: $navbarDropItem;
+        font-weight: 400;
+        transition: 0.3s;
+        i {
+            color: $greenHover;
+            display: none;
+            transition: 0.3s;
+        }
+        &:hover {
+            color: $greenHover;
+        }
+        &:hover i {
+            display:contents;
+        }
     }
 }
