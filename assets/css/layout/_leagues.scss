@@ -1,3 +1,51 @@
 .leagues {
     padding-top: 20px;
+    &__body {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px 130px 20px 10px;
+    }
+    &__leaguePhoto {
+        width: 550px;
+    }
+    &__info {
+        margin-left: 20px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70px;
+    }
+    &__title {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: 0.3s;
+        &:hover {
+            color: $greenHover;
+        }
+    }
+    &__country {
+
+    }
+    &__countryPhoto {
+        width: 15%;
+    }
+    &__countryName {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-weight: 600;
+        transition: 0.3s;
+        margin-left: 5px;
+        &:hover {
+            color: $greenHover;
+            text-decoration: none;
+        }
+    }
 }

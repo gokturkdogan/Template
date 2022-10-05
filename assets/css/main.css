@@ -135,7 +135,7 @@
 }
 .soccerWiki__info {
   width: 48%;
-  padding: 30px 70px;
+  padding: 40px 70px;
 }
 .soccerWiki__info p {
   font-size: 14px;
@@ -162,6 +162,51 @@
 
 .leagues {
   padding-top: 20px;
+}
+.leagues__body {
+  display: flex;
+  flex-direction: column;
+}
+.leagues__item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 130px 20px 10px;
+}
+.leagues__leaguePhoto {
+  width: 550px;
+}
+.leagues__info {
+  margin-left: 20px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+}
+.leagues__title {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.leagues__title:hover {
+  color: #237250;
+}
+.leagues__countryPhoto {
+  width: 15%;
+}
+.leagues__countryName {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-left: 5px;
+}
+.leagues__countryName:hover {
+  color: #237250;
+  text-decoration: none;
 }
 
 .--btn {
