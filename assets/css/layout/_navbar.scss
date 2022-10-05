@@ -32,15 +32,20 @@
         }
     }
     &__dropDown {
-        
+        &:hover .navbar__dropDownContent{
+            display: flex;
+        }
+    }
+    &__dropArea {
+        padding-top: 30px;
     }
     &__dropDownContent {
         position: absolute;
         display: flex;
         flex-direction: column;
         background-color: $navbarLink;
-        margin-top: 30px;
         width: 16%;
+        display: none;
     }
     &__dropLink {
         border: 1px solid $borders;

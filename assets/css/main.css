@@ -31,13 +31,19 @@
 .navbar__link:hover {
   color: #FCEF57;
 }
+.navbar__dropDown:hover .navbar__dropDownContent {
+  display: flex;
+}
+.navbar__dropArea {
+  padding-top: 30px;
+}
 .navbar__dropDownContent {
   position: absolute;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  margin-top: 30px;
   width: 16%;
+  display: none;
 }
 .navbar__dropLink {
   border: 1px solid #D4D5DB;
