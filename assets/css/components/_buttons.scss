@@ -1,0 +1,14 @@
+.--btn {
+    background-color: $navbarHover;
+    border: 1px solid #000;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+    font-size: 12px;
+    &:hover {
+        background: none;
+        border: 1px solid #000;
+    }
+}

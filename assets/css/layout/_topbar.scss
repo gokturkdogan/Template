@@ -9,9 +9,9 @@
     &__icons {
         display: flex;
         justify-content: space-between;
-        width: 7%;
+        width: 5%;
         i {
-            font-size: 26px;
+            font-size: 16px;
             color: $navbarLink;
             transition: 0.3s;
             &:hover {
@@ -36,7 +36,7 @@
         }
         i {
             color: $navbarHover;
-            font-size: 26px;
+            font-size: 16px;
         }
     }
 }

@@ -1,0 +1,46 @@
+.soccerWiki {
+    padding-top: 20px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        h5 {
+            border-left: 4px solid $greenTheme;
+            height: 20px;
+            padding-left: 15px;
+        }
+    }
+    &__contButton {
+        padding: 2px 10px;
+    }
+    &__body {
+        display: flex;
+        height: fit-content;
+    }
+    &__info {
+        width: 48%;
+        padding: 30px 70px;
+        p {
+            font-size: 14px;
+            line-height: 18px;
+            color: $pColor;
+        }
+    }
+    &__stats {
+        width: 48%;
+        margin-left: 4%;
+        
+    }
+    &__stat {
+        padding-top: 20px;
+        width: 50%;
+        height: 50%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+            font-size: 44px;
+            font-weight: 300;
+        }
+    }
+}

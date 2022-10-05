@@ -1,7 +1,10 @@
 @import 'variables/colors';
 @import 'layout/navbar';
 @import 'layout/topbar';
+@import 'layout/soccerWiki';
 @import 'components/icons';
+@import 'components/buttons';
+@import 'components/divs';
 
 body{
     background-color: $main;
