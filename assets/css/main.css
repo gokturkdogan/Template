@@ -160,6 +160,10 @@
   font-weight: 300;
 }
 
+.leagues {
+  padding-top: 20px;
+}
+
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
