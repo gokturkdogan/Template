@@ -1,0 +1,33 @@
+.community {
+    margin-top: 20px;
+
+    &__header {
+        color: $navbarLink;
+        padding: 15px 0px;
+    }
+
+    &__body {}
+
+    &__item {
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px 50px;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: .05em;
+    }
+
+    &__number {
+        color: $greenTheme;
+    }
+
+    &__name {
+        color: $navbarDropItem;
+        text-decoration: none;
+        margin-left: 40px;
+        transition: 0.3s;
+        &:hover {
+            color: $greenHover;
+        }
+    }
+}

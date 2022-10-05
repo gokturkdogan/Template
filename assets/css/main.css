@@ -209,6 +209,34 @@
   text-decoration: none;
 }
 
+.community {
+  margin-top: 20px;
+}
+.community__header {
+  color: #FFFFFF;
+  padding: 15px 0px;
+}
+.community__item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.community__number {
+  color: #35AD79;
+}
+.community__name {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.3s;
+}
+.community__name:hover {
+  color: #237250;
+}
+
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
@@ -231,6 +259,11 @@
 .--boxes {
   background-color: #FFFFFF;
   border: 1px solid #D4D5DB;
+}
+
+.--greenHeader {
+  background-color: #35AD79;
+  text-align: center;
 }
 
 body {
