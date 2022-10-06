@@ -1,0 +1,34 @@
+.newPlayers {
+    margin-top: 20px;
+    &__body {
+        
+    }   
+    &__item {
+        transition: 0.5s;
+        margin-top: 30px;
+        width: 48%;
+        float: left;
+        display: flex;
+        padding: 0px;
+    }
+    &__photo {
+        width: 20%;
+        height: 20%;
+    }
+    &__playerInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    &__name {
+
+    }
+    &__rating {
+
+    }
+    &__position {
+
+    }
+    &__date {
+
+    }
+}

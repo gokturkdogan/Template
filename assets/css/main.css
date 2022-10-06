@@ -270,6 +270,25 @@
   color: #237250;
 }
 
+.newPlayers {
+  margin-top: 20px;
+}
+.newPlayers__item {
+  transition: 0.5s;
+  margin-top: 30px;
+  width: 48%;
+  float: left;
+  display: flex;
+  padding: 0px;
+}
+.newPlayers__photo {
+  width: 20%;
+  height: 20%;
+}
+.newPlayers__playerInfo {
+  display: flex;
+  flex-direction: column;
+}
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
@@ -297,6 +316,10 @@
 .--greenHeader {
   background-color: #35AD79;
   text-align: center;
+}
+
+.--right {
+  margin-left: 3%;
 }
 
 body {
