@@ -326,6 +326,102 @@
   color: #9B9B9B;
 }
 
+.upFooter {
+  background-color: #35363C;
+  width: 45%;
+  padding: 40px 0;
+}
+.upFooter__logoArea {
+  display: flex;
+}
+.upFooter__logoArea p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.upFooter__logo {
+  width: 25%;
+}
+.upFooter__wiki {
+  padding-right: 250px;
+  margin-top: 20px;
+}
+.upFooter__wiki p {
+  color: #FFFFFF;
+  line-height: 1.71429;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  font-size: 14px;
+  text-align: justify;
+}
+.upFooter__contactArea {
+  margin-top: 20px;
+  display: flex;
+}
+.upFooter__contactArea i {
+  font-size: 20px;
+  color: #35AD79;
+  margin-top: 10px;
+}
+.upFooter__contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.upFooter__title {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.upFooter__mail {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.upFooter__mail:hover {
+  color: #237250;
+}
+.upFooter__buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.upFooter__buttons i {
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.upFooter__button {
+  background: none;
+  padding: 9px 30px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.upFooter__button:hover {
+  background: #35AD79;
+  border-color: #35AD79;
+}
+.upFooter__icons {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #35363C;
+  margin-top: 80px;
+}
+
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
