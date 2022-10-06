@@ -279,7 +279,7 @@
   width: 48%;
   float: left;
   display: flex;
-  padding: 0px;
+  padding: 5px;
 }
 .newPlayers__photo {
   width: 20%;
@@ -288,7 +288,44 @@
 .newPlayers__playerInfo {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
+.newPlayers__name {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #007bff;
+  font-weight: 600;
+}
+.newPlayers__rating {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #35AD79;
+  color: #FFFFFF;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+.newPlayers__position {
+  font-size: 14px;
+  line-height: 1.71429;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #9B9B9B;
+}
+.newPlayers__date {
+  font-size: 12px;
+  line-height: 1.71429;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #9B9B9B;
+}
+
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
