@@ -237,6 +237,39 @@
   color: #237250;
 }
 
+.trends {
+  margin-top: 20px;
+}
+.trends__body {
+  display: flex;
+  justify-content: space-between;
+}
+.trends__content {
+  width: 48%;
+}
+.trends__btn {
+  padding: 10px 40px;
+}
+.trends__item {
+  padding: 5px 40px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.trends__photo {
+  width: 17%;
+  margin-left: 35px;
+}
+.trends__name {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+.trends__name:hover {
+  color: #237250;
+}
+
 .--btn {
   background-color: #FCEF57;
   border: 1px solid #000;
