@@ -1,9 +1,12 @@
 .upFooter {
     background-color: $navbar;
-    width: 45%;
+    width: 100%;
     padding: 40px 0;
+    display: flex;
 
-    &__info {}
+    &__info {
+        width: 45%;
+    }
 
     &__logoArea {
         display: flex;
@@ -102,5 +105,32 @@
         width: 32%;
         display: flex;
         justify-content: space-between;
+    }
+
+    &__players {
+        width: 50%;
+    }
+
+    &__title {
+
+    }
+
+    &__table {
+        margin-top: 40px;
+        padding: 20px;
+        border-bottom: 2px solid $navbarHover;
+        border-top: 2px solid $navbarHover;
+    }
+
+    &__item {
+        display: inline-flex;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    &__photo {
+        width: 30%;
+        height: 30%;
+        border-radius: 5px;
     }
 }
