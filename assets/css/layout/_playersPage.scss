@@ -1,0 +1,74 @@
+.players {
+    margin-top: 20px;
+
+    &__search {}
+
+    &__table {
+        background-color: $navbarLink;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: .05em;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 5px 10px;
+        span {
+            margin-top: 25px;
+        }
+    }
+
+    &__itemHeading {
+        display: flex;
+        padding-left: 10%;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    &__number {
+        text-align: right;
+    }
+
+    &__nation {
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__natPhoto {
+        width: 30px;
+        height: 20px;
+    }
+
+    &__photo {
+        width: 60px;
+    }
+
+    &__name {
+        text-align: left;
+        width: 30%;
+    }
+
+    &__itemMiddle {
+        display: flex;
+    }
+
+    &__position {
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+    }
+
+    &__itemFooter {
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+    }
+
+    &__age {}
+
+    &__rating {}
+}

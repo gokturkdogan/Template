@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/59fe93ed09.js" crossorigin="anonymous"></script>
+    <title>Players</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar__icons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="topbar__login">
+                <a class="topbar__link" href=""><i class="fa-solid fa-arrow-right-to-bracket"></i> LOGIN</a>
+                <a class="topbar__link" href=""><i class="fa-solid fa-user"></i> SIGN UP</a>
+            </div>
+        </div>
+    </div>
+    <div id="navbar" class="navbar">
+        <div class="container">
+            <div class="navbar__logoArea">
+                <img class="navbar__logo" src="assets/images/logos/logo-light.png" alt="Logo Ekleyiniz">
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__link">
+                        HOME
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <div class="navbar__dropDown">
+                        <a href="players.html" class="navbar__link">
+                            PLAYERS <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="navbar__dropArea">
+                            <div class="navbar__dropDownContent">
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Advanced
+                                    Player Search</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Top
+                                    Trends</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> New
+                                    Players</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Editted
+                                    Players</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Player
+                                    Images</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__item">
+                    <div class="navbar__dropDown">
+                        <a href="#" class="navbar__link">
+                            CLUBS <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="navbar__dropArea">
+                            <div class="navbar__dropDownContent">
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Top Trending
+                                    Clubs</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Popular
+                                    Countries</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__item">
+                    <div class="navbar__dropDown">
+                        <a href="#" class="navbar__link">
+                            COMPETITIONS <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="navbar__dropArea">
+                            <div class="navbar__dropDownContent">
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Popular
+                                    Leagues</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Popular
+                                    Cups</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__item">
+                    <div class="navbar__dropDown">
+                        <a href="#" class="navbar__link">
+                            MATCHES <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="navbar__dropArea">
+                            <div class="navbar__dropDownContent">
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Last
+                                    Matches</a>
+                                <a class="navbar__dropLink" href=""><i class="fa-solid fa-caret-right"></i> Classic
+                                    Matches</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">
+                        FACILITIES
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="players">
+                <div class="soccerWiki__header">
+                    <h5>Top Trending Players</h5>
+                    <button class="--btn soccerWiki__contButton">CONTRUBITE</button>
+                </div>
+                <hr>
+                <div class="players__search">
+                    <button class="--greenButton"><i class="fa-solid fa-magnifying-glass-plus"></i> ADVANCED PLAYER
+                        SEARCH</button>
+                </div>
+                <div class="players__table">
+                    <div class="players__item --boxes">
+                        <div class="players__itemHeading">
+                            <span class="players__number">#</span>
+                            <span class="players__nation">NAT</span>
+                            <img class="players__photo" src="assets/images/players/white.png" alt="">
+                            <span class="players__name">PLAYER</span>
+                        </div>
+                        <div class="players__itemMiddle">
+                            <span class="players__position">POS</span>
+                        </div>
+                        <div class="players__itemFooter">
+                            <span class="players__age">AGE</span>
+                            <span class="players__rating">RT</span>
+                        </div>
+                    </div>
+                    <div class="players__item --boxes">
+                        <div class="players__itemHeading">
+                            <span class="players__number --bodyNumber">1</span>
+                            <span class="players__nation"><img src="assets/images/countries/portugal.png" alt=""
+                                    class="players__natPhoto"></span>
+                            <img class="players__photo" src="assets/images/players/cronaldo.png" alt="">
+                            <span class="players__name --bodyname">Cristiano Ronaldo</span>
+                        </div>
+                        <div class="players__itemMiddle">
+                            <span class="players__position --bodyPosition">AM(L),F(LC)</span>
+                        </div>
+                        <div class="players__itemFooter">
+                            <span class="players__age --bodyPosition">37</span>
+                            <span class="players__rating --bodyPosition">96</span>
+                        </div>
+                    </div>
+                    <div class="players__item --boxes">
+                        <div class="players__itemHeading">
+                            <span class="players__number --bodyNumber">2</span>
+                            <span class="players__nation"><img src="assets/images/countries/portugal.png" alt=""
+                                    class="players__natPhoto"></span>
+                            <img class="players__photo" src="assets/images/players/mfernandes.png" alt="">
+                            <span class="players__name --bodyname">Manuel Fernandes</span>
+                        </div>
+                        <div class="players__itemMiddle">
+                            <span class="players__position --bodyPosition"> M(C),AM(RLC)</span>
+                        </div>
+                        <div class="players__itemFooter">
+                            <span class="players__age --bodyPosition">36</span>
+                            <span class="players__rating --bodyPosition">78</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="upFooter">
+                        <div class="upFooter__info">
+                            <div class="upFooter__logoArea">
+                                <img src="assets/images/logos/logo-light.png" alt="" class="upFooter__logo">
+                                <p>Soccer Wiki: for the fans, by the fans</p>
+                            </div>
+                            <div class="upFooter__wiki">
+                                <p>Welcome to Soccer Wiki, a free soccer orientated wiki made for the fans, by the fans.
+                                    Soccer Wiki is a collaborative database and anyone can create and edit data. This
+                                    community driven database contains information on players, clubs, stadiums,
+                                    managers,
+                                    referees, leagues and other data related to the world of soccer.</p>
+                            </div>
+                            <div class="upFooter__contactArea">
+                                <i class="fa-regular fa-envelope-open"></i>
+                                <div class="upFooter__contact">
+                                    <span class="upFooter__title">CONTACT US</span>
+                                    <a class="upFooter__mail">contactus@soccerwiki.org</a>
+                                </div>
+                            </div>
+                            <div class="upFooter__buttons">
+                                <div class="upFooter__icons">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <button class="upFooter__button">CONTRIBUTE</button>
+                            </div>
+                        </div>
+                        <div class="upFooter__players">
+                            <div class="upFooter__title">
+                                NEW PLAYERS
+                            </div>
+                            <div class="upFooter__table">
+                                <div class="upFooter__item">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">FELIX KEIDEL</span>
+                                        <span class="newPlayers__rating">65</span>
+                                        <span class="newPlayers__position">DM,M(C)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                                <div class="upFooter__item --right">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">CALVIN BRACKELMANN</span>
+                                        <span class="newPlayers__rating">73</span>
+                                        <span class="newPlayers__position">D(LC)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                                <div class="upFooter__item">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">DAVID UDOGU</span>
+                                        <span class="newPlayers__rating">65</span>
+                                        <span class="newPlayers__position">D,DM(RL)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                                <div class="upFooter__item --right">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">DONALD NDUKA</span>
+                                        <span class="newPlayers__rating">65</span>
+                                        <span class="newPlayers__position">D(C)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                                <div class="upFooter__item">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">JEROEN KRUPA</span>
+                                        <span class="newPlayers__rating">65</span>
+                                        <span class="newPlayers__position">F(C)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                                <div class="upFooter__item --right">
+                                    <img src="assets/images/players/default.jpg" alt="" class="upFooter__photo">
+                                    <div class="newPlayers__playerInfo">
+                                        <span class="newPlayers__name">PAUL LEHMANN</span>
+                                        <span class="newPlayers__rating">65</span>
+                                        <span class="newPlayers__position">D(RC)</span>
+                                        <span class="newPlayers__date"><i class="fa-regular fa-clock"></i> OCT 6
+                                            2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="downFooter">
+            <div class="container">
+                <div class="downFooter__area">
+                    <div class="downFooter__info">
+                        <span>© 2022 <a href="" class="downFooter__link">INVINCIBLES STUDIO LTD</a></span>
+                    </div>
+                    <div class="downFooter__menu">
+                        <a href="" class="downFooter__link">HOME</a>
+                        <a href="" class="downFooter__link">CONTACT US</a>
+                        <a href="" class="downFooter__link">TERM OF USE</a>
+                        <a href="" class="downFooter__link">PRIVACY POLICY</a>
+                        <a href="" class="downFooter__link">HELP</a>
+                        <a href="" class="downFooter__link">LANGUAGE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
