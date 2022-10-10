@@ -560,6 +560,10 @@
   padding: 5px 10px;
   border-radius: 3px;
   border: none;
+  transition: 0.3s;
+}
+.--greenButton:hover {
+  background-color: #000;
 }
 
 .--boxes {
