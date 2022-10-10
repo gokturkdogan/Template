@@ -512,4 +512,14 @@
 body {
   background-color: #EDEFF4;
   font-family: "Kanit", sans-serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }/*# sourceMappingURL=main.css.map */
