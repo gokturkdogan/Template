@@ -1,0 +1,33 @@
+.downFooter {
+    padding: 30px 0 50px 0;
+    background-color: $topbar;
+    font-size: 12px;
+    font-weight: 500;
+    color: $pColor;
+    &__area {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__info {
+        width: 30%;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $pColor;
+        transition: 0.3s;
+        &:hover {
+            color: $greenTheme;
+        }
+    }
+
+    &__menu {
+        margin-right: 30px;
+        width: 55%;
+        letter-spacing: 0.05em;
+        line-height: 1.3;
+        display: flex;
+        justify-content: space-around;
+    }
+}
